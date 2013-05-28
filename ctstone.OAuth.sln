@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ctstone.OAuth", "ctstone.OAuth\ctstone.OAuth.csproj", "{97CFC934-EE2C-496C-B2CC-76E868C50A2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97CFC934-EE2C-496C-B2CC-76E868C50A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97CFC934-EE2C-496C-B2CC-76E868C50A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97CFC934-EE2C-496C-B2CC-76E868C50A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97CFC934-EE2C-496C-B2CC-76E868C50A2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
