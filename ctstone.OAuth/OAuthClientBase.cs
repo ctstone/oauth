@@ -123,7 +123,7 @@ namespace ctstone.OAuth
         protected HttpWebResponse AuthorizedGET(Uri uri)
         {
             Trace.WriteLine("GET " + uri);
-            HttpWebRequest request = WebRequest.CreateHttp(uri);
+            HttpWebRequest request = WebRequest.Create(uri) as HttpWebRequest;
             request.Method = "GET";
             Authorize(request);
             return GetResponse(request);
@@ -136,7 +136,7 @@ namespace ctstone.OAuth
             if (parameters == null)
                 parameters = new FormParameters();
 
-            HttpWebRequest request = WebRequest.CreateHttp(uri);
+            HttpWebRequest request = WebRequest.Create(uri) as HttpWebRequest;
             request.Method = "POST";
             request.ContentType = "application/x-www-form-urlencoded";
             Authorize(request, parameters);
