@@ -212,7 +212,7 @@ namespace ctstone.OAuth
             return ComputeHMACSHA1(secret, signature);
         }
 
-        private void Authorize(HttpWebRequest request, FormParameters parameters = null)
+        protected void Authorize(HttpWebRequest request, FormParameters parameters = null)
         {
             if (parameters == null)
                 parameters = new FormParameters();
